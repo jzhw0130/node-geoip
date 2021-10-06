@@ -50,23 +50,23 @@ var databases = [
 			'geoip-country.dat',
 			'geoip-country6.dat'
 		]
-	},
-	{
-		type: 'city',
-		url: 'https://geoip.maxmind.com/app/geoip_download?edition_id=GeoLite2-City-CSV&suffix=zip&'+license_key,
-		checksum: 'https://geoip.maxmind.com/app/geoip_download?edition_id=GeoLite2-City-CSV&suffix=zip.md5&'+license_key,
-		fileName: 'GeoLite2-City-CSV.zip',
-		src: [
-			'GeoLite2-City-Locations-en.csv',
-			'GeoLite2-City-Blocks-IPv4.csv',
-			'GeoLite2-City-Blocks-IPv6.csv'
-		],
-		dest: [
-			'geoip-city-names.dat',
-			'geoip-city.dat',
-			'geoip-city6.dat'
-		]
 	}
+// 	{
+// 		type: 'city',
+// 		url: 'https://geoip.maxmind.com/app/geoip_download?edition_id=GeoLite2-City-CSV&suffix=zip&'+license_key,
+// 		checksum: 'https://geoip.maxmind.com/app/geoip_download?edition_id=GeoLite2-City-CSV&suffix=zip.md5&'+license_key,
+// 		fileName: 'GeoLite2-City-CSV.zip',
+// 		src: [
+// 			'GeoLite2-City-Locations-en.csv',
+// 			'GeoLite2-City-Blocks-IPv4.csv',
+// 			'GeoLite2-City-Blocks-IPv6.csv'
+// 		],
+// 		dest: [
+// 			'geoip-city-names.dat',
+// 			'geoip-city.dat',
+// 			'geoip-city6.dat'
+// 		]
+// 	}
 ];
 
 function mkdir(name) {
